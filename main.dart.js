@@ -82733,9 +82733,9 @@ var $async$GR=A.I(function(b,c){if(b===1)return A.E(c,r)
 while(true)switch(s){case 0:A.eh($.a8(),new A.aa8(a),t.z)
 return A.F(null,r)}})
 return A.G($async$GR,r)},
-zO(a,b){return this.akU(a,b)},
-akU(a,b){var s=0,r=A.H(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c
-var $async$zO=A.I(function(a0,a1){if(a0===1){p=a1
+zO(a,b,c){return this.akU(a,b,c)},
+akU(a,b,a0){var s=0,r=A.H(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c
+var $async$zO=A.I(function(a1,a2){if(a1===1){p=a2
 s=q}while(true)switch(s){case 0:e=t.N
 d=A.ab(["Content-type","application/json"],e,e)
 q=3
@@ -82743,10 +82743,10 @@ $.fe().toString
 n=A.cI("https://hadithizetuapi-production.up.railway.app/create-checkout-session/",0,null)
 e=o.ax.dy
 g=t.z
-m=A.ab(["amount",a,"receiptEmail",e.gl(e),"storyid",B.f.j(b)],g,g)
+m=A.ab(["amount",a,"title",a0,"receiptEmail",e.gl(e),"storyid",B.f.j(b)],g,g)
 s=6
 return A.L(A.rz(n,B.D.mW(m,null),d),$async$zO)
-case 6:l=a1
+case 6:l=a2
 A.cb().$1("status = "+l.b)
 if(l.b===201||l.b===200){e=l
 k=B.D.d9(0,A.dm(J.T(A.dl(e.e).c.a,"charset")).bx(0,e.w),null)
@@ -83233,7 +83233,7 @@ A.amX.prototype={
 $0(){var s=$.a8(),r=A.c4(s,A.ej(),t.A).ch
 if(r.gl(r)){s=this.a
 r=s.a
-s.d.zO(r.r,r.w)}else A.bO(s,"Register/Login","Pleaase Register/Login To Buy",null,B.e)},
+s.d.zO(r.r,r.w,r.c)}else A.bO(s,"Register/Login","Pleaase Register/Login To Buy",null,B.e)},
 $S:0}
 A.amY.prototype={
 $0(){A.aAm("Umeiona hii? Soma "+this.a.a.c+". \n Nunua Story hii hapa https://hadithzetu-production.up.railway.app/")},
