@@ -26774,12 +26774,13 @@ _.r=e
 _.w=f
 _.x=g
 _.a=h},
-Xr:function Xr(a,b,c,d){var _=this
+Xr:function Xr(a,b,c,d,e){var _=this
 _.d=a
 _.e=b
 _.f=c
+_.r=d
 _.a=null
-_.b=d
+_.b=e
 _.c=null},
 arB:function arB(a){this.a=a},
 arC:function arC(a){this.a=a},
@@ -88330,44 +88331,37 @@ $2(a,b){var s=this.a.e.CW,r=J.R(s.gl(s),b).a,q=J.R(s.gl(s),b).d,p=J.R(s.gl(s),b)
 return A.aG4(r,J.R(s.gl(s),b).w,n,m,o,q,p)},
 $S:200}
 A.m1.prototype={
-a5(){var s=$.a9(),r=t.R
-r=new A.BK(A.c9(s,A.eu(),t.A),A.hU(!1),A.agu(""),A.a([],t.B),A.d_(t.X,t.v),new A.ca(r),new A.ca(r),!1,!1)
-r.ff()
-return new A.Xr(A.c9(s,r,t.Js),A.c9(s,A.aCu(),t.sj),new A.bf(null,t.am),B.j)}}
+a5(){var s=$.a9(),r=t.A,q=t.R
+q=new A.BK(A.c9(s,A.eu(),r),A.hU(!1),A.agu(""),A.a([],t.B),A.d_(t.X,t.v),new A.ca(q),new A.ca(q),!1,!1)
+q.ff()
+return new A.Xr(A.c9(s,q,t.Js),A.c9(s,A.eu(),r),A.c9(s,A.aCu(),t.sj),new A.bf(null,t.am),B.j)}}
 A.Xr.prototype={
-H(a){var s,r,q,p=this,o=null,n=$.c8(),m=t.p,l=A.bv(A.a([B.cs,A.ie(B.e,B.bG,!0,new A.arB(a)),B.ar,A.tK(B.e,o,new A.a_(B.G,A.aI(""+p.a.w,o,o,o,B.A5,o,o),o),o),B.cs],m),B.n,B.k,o),k=A.bT(25)
-k=A.a([B.ho,B.kn,new A.a_(B.FA,l,o),A.aS(o,o,B.l,o,o,new A.b9(o,A.a4J(o,new A.hd(p.a.f,1,o),o),o,k,o,o,B.z),o,200,o,o,o,o,o,200)],m)
-if(p.a.d===""){l=A.ae(a,B.p,t.w).w
-k.push(new A.a_(B.ne,A.ik(new A.a_(B.G,A.aI("Lipia "+p.a.r+" $",o,o,o,B.Sl,o,o),o),B.o,l.a.a*0.7,new A.arC(p)),o))}k.push(new A.a_(B.FC,new A.zN(1,B.Gs,A.aI(p.a.c,o,B.c8,o,B.RG,B.bP,o),o),o))
-k.push(B.bu)
-l=A.iT(B.OG,new A.arD(p),A.id(o,o,B.e,o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.f8,o))
-s=A.id(o,o,B.mt,o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.f8,o)
-k.push(A.bv(A.a([l,A.iT(A.aI("\ud83d\udc41\ufe0f "+p.a.x,o,o,o,B.D,o,o),new A.arE(),s)],m),B.hi,B.k,o))
-s=A.bT(10)
-l=p.a.e
-r=t.w
-k.push(A.bv(A.a([A.ui(new A.a_(B.jg,A.aS(o,new A.a_(B.G,A.aI("PREVIEW \n\n"+l,o,o,o,A.bN(o,o,B.o,o,o,o,o,o,o,o,o,A.ae(a,B.p,r).w.a.a<650?17:20,o,o,B.H,o,o,!0,o,o,o,o,o,o,o,o),o,o),o),B.l,o,o,new A.b9(B.e,o,o,s,o,o,B.z),o,o,o,o,o,o,o,o),o),1)],m),B.n,B.k,o))
-l=A.bT(10)
-s=p.a.d
-q=s===""
-s=q?"\nPlease Purchase/View in Dashboard To Read":"*FULL STORY* \n\n"+s
-q=q?B.aI:B.o
-k.push(A.bv(A.a([A.ui(new A.a_(B.jg,A.aS(o,new A.a_(B.G,A.aI(s,o,o,o,A.bN(o,o,q,o,o,o,o,o,o,o,o,A.ae(a,B.p,r).w.a.a<650?17:20,o,o,B.H,o,o,!0,o,o,o,o,o,o,o,o),o,o),o),B.l,o,o,new A.b9(B.e,o,o,l,o,o,B.z),o,o,o,o,o,o,o,o),o),1)],m),B.n,B.k,o))
-k.push(B.bu)
-k.push(B.hv)
-k.push(B.A9)
-k.push(B.hv)
-k.push(B.bu)
-k.push(B.lE)
-return A.ew(n,A.eR(A.bq(k,B.t,B.n,B.k),o),o,new A.cA(B.aC,B.aG,o))}}
+H(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=$.c8(),h=t.p,g=A.bv(A.a([B.cs,A.ie(B.e,B.bG,!0,new A.arB(a)),B.ar,A.tK(B.e,j,new A.a_(B.G,A.aI(""+k.a.w,j,j,j,B.A5,j,j),j),j),B.cs],h),B.n,B.k,j),f=A.bT(25)
+f=A.aS(j,j,B.l,j,j,new A.b9(j,A.a4J(j,new A.hd(k.a.f,1,j),j),j,f,j,j,B.z),j,200,j,j,j,j,j,200)
+s=t.w
+r=A.ae(a,B.p,s).w
+q=k.a
+r=A.ik(new A.a_(B.G,A.aI("Lipia "+q.r+" $",j,j,j,B.Sl,j,j),j),B.o,r.a.a*0.7,new A.arC(k))
+q=A.aI(q.c,j,B.c8,j,B.RG,B.bP,j)
+p=A.iT(B.OG,new A.arD(k),A.id(j,j,B.e,j,j,j,j,j,j,j,j,j,j,j,j,j,j,B.f8,j))
+o=A.id(j,j,B.mt,j,j,j,j,j,j,j,j,j,j,j,j,j,j,B.f8,j)
+o=A.bv(A.a([p,A.iT(A.aI("\ud83d\udc41\ufe0f "+k.a.x,j,j,j,B.D,j,j),new A.arE(),o)],h),B.hi,B.k,j)
+p=A.bT(10)
+n=k.a.e
+p=A.bv(A.a([A.ui(new A.a_(B.jg,A.aS(j,new A.a_(B.G,A.aI("PREVIEW \n\n"+n,j,j,j,A.bN(j,j,B.o,j,j,j,j,j,j,j,j,A.ae(a,B.p,s).w.a.a<650?17:20,j,j,B.H,j,j,!0,j,j,j,j,j,j,j,j),j,j),j),B.l,j,j,new A.b9(B.e,j,j,p,j,j,B.z),j,j,j,j,j,j,j,j),j),1)],h),B.n,B.k,j)
+n=A.bT(10)
+m=k.a.d
+l=m===""
+m=l?"\nPlease Purchase/View in Dashboard To Read":"*FULL STORY* \n\n"+m
+l=l?B.aI:B.o
+return A.ew(i,A.eR(A.bq(A.a([B.ho,B.kn,new A.a_(B.FA,g,j),f,new A.a_(B.ne,r,j),new A.a_(B.FC,new A.zN(1,B.Gs,q,j),j),B.bu,o,p,A.bv(A.a([A.ui(new A.a_(B.jg,A.aS(j,new A.a_(B.G,A.aI(m,j,j,j,A.bN(j,j,l,j,j,j,j,j,j,j,j,A.ae(a,B.p,s).w.a.a<650?17:20,j,j,B.H,j,j,!0,j,j,j,j,j,j,j,j),j,j),j),B.l,j,j,new A.b9(B.e,j,j,n,j,j,B.z),j,j,j,j,j,j,j,j),j),1)],h),B.n,B.k,j),B.bu,B.hv,B.A9,B.hv,B.bu,B.lE],h),B.t,B.n,B.k),j),j,new A.cA(B.aC,B.aG,j))}}
 A.arB.prototype={
 $0(){A.bE(this.a).fN(null)},
 $S:0}
 A.arC.prototype={
-$0(){var s=$.a9(),r=A.c9(s,A.eu(),t.A).ch
-if(r.gl(r)){s=this.a
-r=s.a
-s.d.B7(r.r,r.w,r.c)}else A.bU(s,"Register/Login","Pleaase Register/Login To Buy",null,B.e)},
+$0(){var s=this.a,r=s.e.ch
+if(r.gl(r)){r=s.a
+s.d.B7(r.r,r.w,r.c)}else A.bU($.a9(),"Register/Login","Pleaase Register/Login To Buy",null,B.e)},
 $S:0}
 A.arD.prototype={
 $0(){A.aFM("Umeiona hii? Soma "+this.a.a.c+". \n Nunua Story hii hapa https://hadithzetu-production.up.railway.app/")},
