@@ -85369,7 +85369,7 @@ A.RN.prototype={
 H(a){var s=null,r=t.w,q=A.a3(a,B.m,r).w.a,p=$.c9(),o=q.a,n=A.cH(s,A.aH(A.a3(a,B.m,r).w.a.a>=1300?"Contact Us on WhatsApp":"WhatsApp",s,s,s,B.zS,s,s),B.z,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.al4(),s,s,s,s,s,s),m=t.p
 return A.ej(p,A.e8(A.lS(!0,A.aJ(s,A.bq(A.a([B.LQ,B.D8,A.bV(A.bU(A.a([n,B.PS,A.cH(s,A.aH(A.a3(a,B.m,r).w.a.a>=1300?"Follow Us on Twitter":"Twitter",s,s,s,B.zS,s,s),B.z,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.al5(),s,s,s,s,s,s)],m),B.cQ,B.l,s),s,o),B.ea],m),B.cf,B.dk,B.l),B.k,s,new A.av(0,1/0,q.b*0.9,1/0),s,s,s,s,s,s,s,s,o),!0,B.ac,!0,!0),s),s,new A.co(B.aB,B.aF,s))}}
 A.al4.prototype={
-$0(){A.I1(A.c2("https://wa.me/+60182587329",0,null))},
+$0(){A.I1(A.c2("https://wa.me/+601111895706",0,null))},
 $S:0}
 A.al5.prototype={
 $0(){A.I1(A.c2("https://twitter.com/godopetza",0,null))},
@@ -85647,7 +85647,7 @@ H(a){var s,r,q=this,p=null,o=A.by(10),n=A.by(10),m=t.p
 n=A.f2(B.aM,A.a([A.aJ(p,p,B.k,p,p,new A.aV(p,A.a2S(B.dR,new A.ke(q.f,1,p),p),p,n,p,p,B.t),p,170,p,p,p,p,p,1/0),new A.cE(B.iq,p,p,new A.V(B.R,A.y3(B.o,A.aH("$ "+q.y,p,p,p,A.bo(p,p,B.e,p,p,p,p,p,p,p,p,18,p,p,B.Z,p,p,!0,p,p,p,p,p,p,p,p),p,p),28),p),p)],m),B.I,B.aK,p)
 s=A.aH(q.c,p,p,p,B.zZ,p,p)
 r=A.by(5)
-return new A.V(B.nc,A.aJ(p,A.bq(A.a([new A.V(B.j7,n,p),new A.V(B.nf,A.bU(A.a([s,B.aQ,A.aJ(p,new A.V(B.nk,A.aH(""+q.x+" Views",p,p,p,B.A_,p,p),p),B.k,p,p,new A.aV(B.hg,p,p,r,p,p,B.t),p,p,p,p,p,p,p,p)],m),B.p,B.l,p),p),new A.V(B.ng,new A.cE(B.dN,p,p,A.aH(q.e,2,p,p,p,B.aL,p),p),p),new A.vo(p),new A.V(B.FM,new A.cE(B.lC,p,p,A.aH("~ "+q.r,p,p,p,A.bo(p,p,B.J,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),p),p),B.aQ,new A.V(B.ne,A.ia(B.A1,B.o,1/0,new A.agy(q)),p)],m),B.v,B.p,B.l),B.k,p,p,new A.aV(B.e,p,p,o,p,p,B.t),p,365,p,p,p,p,p,1/0),p)}}
+return new A.V(B.nc,A.aJ(p,A.bq(A.a([new A.V(B.j7,n,p),new A.V(B.nf,A.bU(A.a([s,B.aQ,A.aJ(p,new A.V(B.nk,A.aH(""+q.x+" Views",p,p,p,B.A_,p,p),p),B.k,p,p,new A.aV(B.hg,p,p,r,p,p,B.t),p,p,p,p,p,p,p,p)],m),B.p,B.l,p),p),new A.V(B.ng,new A.cE(B.dN,p,p,A.aH(q.e,2,p,p,p,B.aL,p),p),p),new A.vo(p),new A.V(B.FM,new A.cE(B.lC,p,p,A.aH("~ "+q.r,p,p,p,A.bo(p,p,B.J,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),p),p),B.aQ,new A.V(B.ne,A.ia(B.A1,B.o,1/0,new A.agy(q)),p)],m),B.v,B.p,B.l),B.k,p,p,new A.aV(B.e,p,p,o,p,p,B.t),p,350,p,p,p,p,p,300),p)}}
 A.agy.prototype={
 $0(){var s=0,r=A.I(t.H),q=this
 var $async$$0=A.J(function(a,b){if(a===1)return A.F(b,r)
@@ -85884,7 +85884,7 @@ m=t.p
 r=A.f2(B.aM,A.a([A.aJ(n,n,B.k,n,n,new A.aV(n,B.EX,n,A.by(10),n,n,B.t),n,170,n,n,n,n,n,1/0),new A.cE(B.iq,n,n,new A.V(B.R,A.y3(B.o,A.aH("FREE",n,n,n,A.bo(n,n,B.e,n,n,n,n,n,n,n,n,n,n,n,B.Z,n,n,!0,n,n,n,n,n,n,n,n),n,n),28),n),n)],m),B.I,B.aK,n)
 q=A.aH(o.c,n,n,n,B.zZ,n,n)
 p=A.by(5)
-return new A.V(B.nc,A.aJ(n,A.bq(A.a([new A.V(B.j7,r,n),new A.V(B.nf,A.bU(A.a([q,B.aQ,A.aJ(n,new A.V(B.nk,A.aH(""+o.f+" Views",n,n,n,B.A_,n,n),n),B.k,n,n,new A.aV(B.hg,n,n,p,n,n,B.t),n,n,n,n,n,n,n,n)],m),B.p,B.l,n),n),new A.V(B.ng,new A.cE(B.dN,n,n,A.aH(o.d,2,n,n,n,B.aL,n),n),n),B.aQ,new A.V(B.ne,A.ia(B.A1,B.o,1/0,new A.agA(o,s)),n)],m),B.v,B.p,B.l),B.k,n,n,new A.aV(B.e,n,n,l,n,n,B.t),n,350,n,n,n,n,n,1/0),n)}}
+return new A.V(B.nc,A.aJ(n,A.bq(A.a([new A.V(B.j7,r,n),new A.V(B.nf,A.bU(A.a([q,B.aQ,A.aJ(n,new A.V(B.nk,A.aH(""+o.f+" Views",n,n,n,B.A_,n,n),n),B.k,n,n,new A.aV(B.hg,n,n,p,n,n,B.t),n,n,n,n,n,n,n,n)],m),B.p,B.l,n),n),new A.V(B.ng,new A.cE(B.dN,n,n,A.aH(o.d,2,n,n,n,B.aL,n),n),n),B.aQ,new A.V(B.ne,A.ia(B.A1,B.o,1/0,new A.agA(o,s)),n)],m),B.v,B.p,B.l),B.k,n,n,new A.aV(B.e,n,n,l,n,n,B.t),n,350,n,n,n,n,n,300),n)}}
 A.agA.prototype={
 $0(){var s=0,r=A.I(t.H),q=this,p
 var $async$$0=A.J(function(a,b){if(a===1)return A.F(b,r)
