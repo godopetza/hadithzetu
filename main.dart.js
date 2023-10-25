@@ -90012,7 +90012,7 @@ m=A.c7("https://hadithizetuapi-production.up.railway.app/premstories/add/",0,nul
 h=o.ax
 g=o.ay
 f=t.z
-l=A.ag(["title",h.a.a,"previewStory",o.cx.a.a,"price",A.dM(o.cy.a.a,null),"tzsprice",A.dM(o.db.a.a,null),"fullStory",g.a.a,"category",a,"photo",b],f,f)
+l=A.ag(["title",h.a.a,"previewStory",o.cx.a.a,"price",A.dM(o.cy.a.a,null),"tzsPrice",A.dM(o.db.a.a,null),"fullStory",g.a.a,"category",a,"photo",b],f,f)
 s=6
 return A.y(A.od(m,B.B.mQ(l,null),n),$async$A4)
 case 6:k=a1
@@ -90050,7 +90050,7 @@ $.ej()
 m=A.c7("https://hadithizetuapi-production.up.railway.app/audio/add/",0,null)
 h=o.ax
 g=t.z
-l=A.ag(["title",h.a.a,"previewStory",o.cx.a.a,"price",A.dM(o.cy.a.a,null),"tzsprice",A.dM(o.db.a.a,null),"fullStory",c,"category",a,"photo",b],g,g)
+l=A.ag(["title",h.a.a,"previewStory",o.cx.a.a,"price",A.dM(o.cy.a.a,null),"tzsPrice",A.dM(o.db.a.a,null),"fullStory",c,"category",a,"photo",b],g,g)
 s=6
 return A.y(A.od(m,B.B.mQ(l,null),n),$async$zZ)
 case 6:k=a1
