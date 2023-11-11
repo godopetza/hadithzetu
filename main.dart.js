@@ -95534,10 +95534,10 @@ n=A.bO("https://hadithizetuapi-production.up.railway.app/viewprem/"+a,0,null)
 s=6
 return A.n(A.lp(n,i),$async$Fn)
 case 6:m=c
+o.ch.sj(0,!0)
 if(m.b===200){j=m
 l=B.D.cv(0,A.cC(J.C(A.cB(j.e).c.a,"charset")).bl(0,j.w),null)
-o.CW=A.yj(J.C(l,"story"))
-o.ch.sj(0,!0)}else{j=J.C(A.Bj(J.wc(m)),"Message")
+o.CW=A.yj(J.C(l,"story"))}else{j=J.C(A.Bj(J.wc(m)),"Message")
 if(j==null)j="Unknown Error Occured"
 throw A.c(j)}q=1
 s=5
