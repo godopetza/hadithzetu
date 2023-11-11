@@ -95961,7 +95961,8 @@ $0(){var s=this.a
 s.d.EW(s.a.f)},
 $S:0}
 A.azP.prototype={
-$0(){A.aTv("Umeiona hii? Soma "+this.a.a.c+". \n Tafuta Story hii hapa https://hadithzetu-production.up.railway.app/#/free")},
+$0(){var s=this.a.a
+A.aTv(s.c+". \n Soma Hadithi Hii Hapa: https://hadithzetu-production.up.railway.app/#/free/"+s.f)},
 $S:0}
 A.azQ.prototype={
 $0(){},
@@ -96200,7 +96201,7 @@ $0(){},
 $S:0}
 A.aDo.prototype={
 $0(){var s=this.a.a
-A.aTv("Umeiona hii? Soma "+s.d+". \n Nunua Story hii hapa https://hadithzetu-production.up.railway.app/#/premium/"+s.z)},
+A.aTv(s.d+". \n Nunua Hadithi Hii Hapa https://hadithzetu-production.up.railway.app/#/premium/"+s.z+". Muandishi ni "+s.w+".")},
 $S:0}
 A.aDp.prototype={
 $0(){},
