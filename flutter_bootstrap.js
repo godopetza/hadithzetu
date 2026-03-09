@@ -36,8 +36,13 @@ if (!window._flutter) {
 }
 _flutter.buildConfig = {"engineRevision":"b5990e5ccc5e325fd24f0746e7d6689bbebc7c65","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
 
+
 _flutter.loader.load({
-  serviceWorkerSettings: {
-    serviceWorkerVersion: "174786746"
+  onEntrypointLoaded: async function(engineInitializer) {
+    const appRunner = await engineInitializer.initializeEngine();
+    await appRunner.runApp();
+    // Remove loading indicator exactly when app is ready
+    const loading = document.getElementById('loading_indicator');
+    if (loading) loading.remove();
   }
 });

@@ -65,37 +65,12 @@
     }
   </style>
 
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
 </head>
 <body>
   <div id="loading_indicator" class="container">
     <img class="indicator" src="./assets/OS8f.gif"/>
   </div>
-  <script>
-    window.addEventListener('load', function(ev) {
-      _flutter.loader.load({
-        serviceWorker: {
-          serviceWorkerVersion: ""174786746"",
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
-      });
-    });
-  </script>
-  <script>
-    window.onload = function(){
-      setTimeout(function(){
-        var loadingindicator = document.getElementById("loading_indicator");
-        if (loadingindicator){
-          loadingindicator.remove();
-        }
-      },10000)
-    }
-  </script>
+  <script src="flutter_bootstrap.js" async></script>
   
 </body>
 </html>
