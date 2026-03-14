@@ -121708,7 +121708,7 @@ FA(a,b,c,d,e){var s=null,r=c.R(0.1),q=A.R(8),p=A.b9(c.R(0.25),1)
 r=A.tI(new A.aZw(d,A.a6(s,A.ah(A.c([A.c9(a,s,s,c,s,s,s,s,s,s,s,13,s,s),B.l4,A.L(b,s,s,s,s,A.bv(s,s,c,s,s,s,s,s,s,s,s,12,s,s,B.aX,s,s,!0,s,s,s,s,s,s,s,s),s,s,s,s)],t.p),B.k,B.e,B.Q,0,s,s),B.l,s,s,new A.ad(r,s,p,q,s,s,B.q),s,s,s,s,B.mt,s,s,s)),A.aR(e,0,s))
 return r}}
 A.aZK.prototype={
-$0(){return A.mO(A.aR("https://play.google.com/store/apps/details?id=dev.flutterai.hadithizetu",0,null),B.iK)},
+$0(){return A.mO(A.aR("https://play.google.com/store/apps/details?id=dev.flutterai.hadithizetuapp",0,null),B.iK)},
 $S:0}
 A.aZL.prototype={
 $0(){return $.bb().bo("/premium",t.X)},
