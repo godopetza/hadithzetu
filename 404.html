@@ -33,8 +33,46 @@
   <meta name="twitter:description" content="Jukwaa la Simulizi | Soma, Uza, Nunua Hadithi za KiAfrika." />
   <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1663136655690334210/YwghLf13_400x400.jpg" />
 
-  <!-- Apple Smart App Banner (replace YOUR_IOS_APP_ID when published to App Store) -->
-  <meta name="apple-itunes-app" content="app-id=YOUR_IOS_APP_ID, app-argument=hadithizetu:///creator/">
+  <!-- Apple Smart App Banner -->
+  <meta
+    name="apple-itunes-app"
+    content="app-id=id6760423803, app-argument=hadithizetu:///"
+  >
+  <script>
+    (function () {
+      var basePath = '/hadithzetu';
+      var hash = window.location.hash || '';
+      var route = '/';
+
+      if (hash.indexOf('#/') === 0) {
+        route = hash.slice(1);
+      } else if (window.location.pathname.indexOf(basePath) === 0) {
+        route = window.location.pathname.slice(basePath.length) || '/';
+      }
+
+      if (!route.startsWith('/')) {
+        route = '/' + route;
+      }
+
+      var query = window.location.search || '';
+      if (hash.indexOf('#/') === 0) {
+        var hashQueryIndex = route.indexOf('?');
+        if (hashQueryIndex === -1 && query) {
+          route += query;
+        }
+      } else if (query) {
+        route += query;
+      }
+
+      var bannerMeta = document.querySelector('meta[name="apple-itunes-app"]');
+      if (bannerMeta) {
+        bannerMeta.setAttribute(
+          'content',
+          'app-id=id6760423803, app-argument=hadithizetu://' + route
+        );
+      }
+    })();
+  </script>
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
